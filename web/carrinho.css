@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/06/2024, 04:48:46
+    Author     : Root
+*/
+
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    margin-top: 50px;
+}
+.cart-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+}
+.cart-item:last-child {
+    border-bottom: none;
+}
+.cart-item-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cart-total {
+    font-size: 18px;
+    font-weight: bold;
+}
+.cart-actions {
+    text-align: right;
+}
+.btn-excluir {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.cart-item-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}

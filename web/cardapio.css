@@ -1,0 +1,274 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/06/2024, 00:21:15
+    Author     : Root
+*/
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #logo {
+            text-decoration: none; /* Remove sublinhado */
+            color: white; /* Define a cor do texto como branca */
+        }
+        
+        h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        h3 {
+            color: #666;
+            margin-top: 20px;
+        }
+        
+        .btn-danger {
+            background-color: #ff0000; 
+            color: #fff;
+        }
+        .center-text {
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+        }
+        aside {
+            width: 30%;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        section {
+            flex-grow: 1;
+            padding: 20px;
+        }
+       
+    aside {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 5px;
+    }
+  
+    aside {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    #cart {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cart li {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+    #cart li:last-child {
+        border-bottom: none;
+    }
+
+    .remove-btn {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .remove-btn:hover {
+        background-color: #c82333;
+    }
+
+    .finalize-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #f44403;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .finalize-btn:hover {
+        background-color: #ed2207;
+    }
+
+    .close {
+        float: right;
+        cursor: pointer;
+    }
+  
+    aside {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    #cart {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cart li {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+    #cart li:last-child {
+        border-bottom: none;
+    }
+
+    .remove-btn {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .remove-btn:hover {
+        background-color: #c82333;
+    }
+
+    .finalize-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #f70707;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .finalize-btn:hover {
+        background-color: #f70707;
+    }
+
+    .close {
+        float: right;
+        cursor: pointer;
+    }
+
+    #orderInfoModal {
+        display: none; 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.4); 
+        width: 100%;
+        height: 100%;
+        z-index: 1001; 
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .payment-info h2 {
+        margin-top: 0;
+    }
+
+    .payment-info label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .payment-info input,
+    .payment-info select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+    .confirm-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #f70707;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .confirm-btn:hover {
+        background-color: #f70707;
+    }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        color: #aaa;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    /* Estilos para o botão Carrinho */
+.cart-toggle-btn {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+}

@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/06/2024, 15:40:02
+    Author     : Root
+*/
+
+    body {
+      background-color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .jumbotron {
+      background-color: #ffffff;
+      color: rgb(17, 17, 17);
+      padding: 80px 30px;
+      margin-bottom: 30px;
+      border-radius: 0;
+    }
+
+    .btn-acesso {
+      background-color: #000000;
+      color: rgb(153, 9, 9);
+      border-color: #201f1f;
+    }
+
+    .btn-acesso:hover {
+      background-color: #ffffff;
+      border-color: #bd2130;
+    }
+
+    .card {
+      border: none;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+
+    .social-icons {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .social-icons a {
+      color: rgb(0, 0, 0);
+      margin: 0 10px;
+      background-color: rgba(255, 255, 255, 0.3);
+      /* Fundo branco semi-transparente */
+      border-radius: 50%;
+      padding: 10px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #010101;
+      background-color: rgb(194, 48, 48);
+      text-decoration: none;
+    }
+
+    .info-section {
+      background-color: #ffffffd6;
+      padding: 30px;
+      margin-top: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-section h5 {
+      color: #dc3545;
+    }
+
+    .info-section .text-black {
+      color: #000000;
+    }
+
+    .map-responsive {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+
+    .map-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+
+    .display-4 {
+      font-family: 'Lobster', cursive;
+      font-size: 3.5rem;
+      color: rgb(0, 0, 0);
+      margin-bottom: 20px;
+    }
+
+    .lead {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.25rem;
+      color: #ba0000;
+    }
+
+    .logo {
+      position: fixed;
+      /* Fixa a logo no canto da página */
+      top: 20px;
+      left: 45px;
+      width: 77px;
+      /* Aumenta o tamanho da logo */
+      height: auto;
+    }
+
+    footer p {
+      color: #6c757d;
+    }
